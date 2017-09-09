@@ -1,0 +1,38 @@
+body {
+    background-image: url("http://www.wallpapersbrowse.com/images/5g/5gsp97o.jpg");
+}
+
+h1,
+.button,
+* {
+  font-family: Helvetica;
+  text-align: center;
+}
+
+h1 {
+color: black;
+padding: 10px;
+}
+
+.button {
+  width: 250px;
+  border-radius: 0;
+  background-color: black;
+  opacity: 0.6;
+  margin: 10px;
+  color: blue;
+  font-size: 25px;
+}
+.button:hover{
+  background-color: gray;
+
+#time {
+  font-size: 20px;
+}
+
+.button:hover{
+  background-color: white;
+}
+#questions {
+  font-size: 25px;
+}
