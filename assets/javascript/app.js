@@ -125,28 +125,3 @@ function questionToJQuery(question, questionId) {
 
 
 startTrivia();
-// function roundComplete() {
-//   console.log("WinCount: " + winCounter + " | LossCount: " + lossCounter );
-  
-//   document.getElementById("right-guesses").innerHTML = rightGuesses;
-
-//   document.getElementById("wrong-guesses").innerHTML = wrongGuesses.join(" ");
-//   // If we have gotten all the letters to match the solution...
-//   if (answers.toString() === correctanswer.toString()) {
-    
-//     winCounter++;
-    
-//     document.getElementById("win-counter").innerHTML = winCounter;
-//     startGame();
-//   }
-//   // If we've run out of guesses..
-//   // else if (wrongGuesses /== correctanswer) {
-    
-//   //   lossCounter++;
-    
-//     // Update the loss counter in the HTML.
-//     document.getElementById("loss-counter").innerHTML = lossCounter;
-//     // Restart the game.
-//     startGame();
-  
-// }
